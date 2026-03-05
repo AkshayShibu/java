@@ -10,9 +10,11 @@ class CLA{
                   System.out.println("arguments not present.\n usage: cla arg1 arg2 ");
                     return;
              }
-             int a = Integer.parseInt(args[0]);
+              int a = Integer.parseInt(args[0]);
               int b = Integer.parseInt(args[1]);
-              System.out.print("a="+a +" b="+b);
+              int s = a+b;
+              System.out.println("a="+a +" b="+b);
+              System.out.println("sum="+s);
              }
      }
 
